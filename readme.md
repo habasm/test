@@ -10,7 +10,7 @@ In this project, I set up my portfolio repository. My goal here was to set up an
 - ![screenshot](/images/mobile_preview_v4.png)
 ## :red_circle: Live Demo
 
-[Live Preview Link](https://www.linkedin.com/in/habitamu-asimare-aa824b169/)
+[Live Preview Link](https://github.com/habasm/portfolio/)
 
 ## :hammer: Built With
 
@@ -18,7 +18,7 @@ In this project, I set up my portfolio repository. My goal here was to set up an
 
 To get a local copy up and running follow these simple steps:
 
-1. Go to the [repository page](https://github.com/ArthurGC/portfolio-microverse).
+1. Go to the [repository page](https://github.com/habasm/portfolio/pull/1).
 2. Press the "Code" button and copy the link.
 3. Clone it using git command `git clone <link>`.
 
@@ -31,16 +31,16 @@ To get a local copy up and running follow these simple steps:
 
 ## Authors
 
-👤 **ArthurGC**
+👤 **HABASM**
 
-- GitHub: [@ArthurGC](https://github.com/ArthurGC)
+- GitHub: [@HabAsm](https://github.com/HABASM)
 
 
 ## 🤝 :raised_hand: :raised_hand: Contributions
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ArthurGC/portfolio-microverse/issues).
+Feel free to check the [issues page](https://github.com/habasm/portfolio/issues).
 
 ## Acknowledgments
 
