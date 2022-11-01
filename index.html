@@ -1,13 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="HABASM | Web design" />
+  <meta name="keywords" content="Portfolio, HABASM" />
+  <meta name="author" content="HABASM" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <title>HABASM Portfolio</title>
 </head>
+
 <body>
-    <h1>Sample Webpage Design</h1>
+  <div class="main_container">
+    <header class="header white-color">
+      <nav class="navbar flex">
+        <a href="#" class="navbar__link link size-20 weight-700 height-20">HABASM</a>
+        <img class="hambers" src="images/hamburguer.png" alt="hamburguer icon" />
+      </nav>
+    </header>
+
+    <section class="head flex">
+      <h1 class="titles size-40 weight-700 height-52">
+        I'm HABASM <span>Glad to see you!</span>
+      </h1>
+      <p class="head__dsc size-16 weight-400 height-24">
+        I’m a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact
+        me.
+      </p>
+      <a href="#" class="links link size-16 weight-500 height-24 clr-p-400">My Projects</a>
+      <ul class="icons ul flex">
+        <li class="icons__li">
+          <a href="https://twitter.com/AsimareHabitamu" class="icons__link link"><img src="images/twitter.png" alt="twitter icon" /></a>
+        </li>
+        <li class="icons__li">
+          <a href="https://www.linkedin.com/in/habitamu-asimare-aa824b169/" class="icons__link link"><img src="images/Linkedin.svg" alt="linkedin icon" /></a>
+        </li>
+        <li class="icons__li">
+          <a href="#" class="icons__link link"><img src="images/M.png" alt="M icon" /></a>
+        </li>
+        <li class="icons__li">
+          <a href="https://github.com/HabAsm" class="icons__link link"><img src="images/github.svg" alt="github icon" /></a>
+        </li>
+        <li class="icons__li">
+          <a href="#" class="icons__link link"><img src="images/hand.svg" alt="hand icon" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="works" id="works">
+      <ul class="cards ul grid">
+        <li class="card flex white-color">
+          <img class="card__img" src="images/tonic-project-desktop.svg" alt="tonic project" />
+          <div class="card__text">
+            <h2 class="card__title weight-700 size-32 height-44 clr-n-800">
+              Tonic
+            </h2>
+            <div class="card__subtitle flex">
+              <p class="card__subtitle-1 weight-600 size-13 height-16 clr-n-600">
+                CANOPY
+              </p>
+              <ul class="card__subtitle-ul flex">
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500">
+                  Back End Dev
+                </li>
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500">
+                  2015
+                </li>
+              </ul>
+            </div>
+            <p class="card__dsc weight-400 size-15 height-24 clr-n-600">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <div class="card__topics flex">
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                html
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50
+                  ">
+                css
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                javascript
+              </p>
+            </div>
+            <div class="card__btn">
+              <button type="button" class="btn weight-500 size-17 height-24 clr-p-500 white-color first-btn" id="0">
+                See Project
+              </button>
+            </div>
+          </div>
+        </li>
+        <li class="card flex white-color">
+          <img class="card__img" src="images/multi-post-stories-project.svg" alt="multi-post stories project" />
+          <div class="card__text">
+            <h2 class="card__title weight-700 size-32 height-44 clr-n-800">
+              Multi-Post Stories
+            </h2>
+            <div class="card__subtitle flex">
+              <p class="card__subtitle-1 weight-600 size-13 height-16 clr-n-600">
+                FACEBOOK
+              </p>
+              <ul class="card__subtitle-ul flex">
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500">
+                  Full Stack Dev
+                </li>
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500"> 
+                  2015
+                </li>
+              </ul>
+            </div>
+            <p class="card__dsc weight-400 size-15 height-24 clr-n-600">
+              Experimental content creation feature that allows users to add
+              to an existing story over the course of a day without spamming
+              their friends.
+            </p>
+            <div class="card__topics flex">
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                html
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                Ruby on rails
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                css
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                javascript
+              </p>
+            </div>
+            <div class="card__btn">
+              <button type="button" class="btn weight-500 size-17 height-24 clr-p-500 white-color second-btn" id="1">
+                See Project
+              </button>
+            </div>
+          </div>
+        </li>
+        <li class="card flex white-color">
+          <img class="card__img" src="images/facebook-360-project.svg" alt="tonic orange project" />
+          <div class="card__text">
+            <h2 class="card__title weight-700 size-32 height-44 clr-n-800">
+              Facebook 360
+            </h2>
+            <div class="card__subtitle flex">
+              <p class="card__subtitle-1 weight-600 size-13 height-16 clr-n-600">
+                FACEBOOK
+              </p>
+              <ul class="card__subtitle-ul flex">
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500">
+                  Full Stack Dev
+                </li>
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500">
+                  2015
+                </li>
+              </ul>
+            </div>
+            <p class="card__dsc weight-400 size-15 height-24 clr-n-600">
+              Exploring the future of media in Facebook's first Virtual
+              Reality app; a place to discover and enjoy 360 photos and videos
+              on Gear VR.
+            </p>
+            <div class="card__topics flex">
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                html
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                Ruby on rails
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                css
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                javascript
+              </p>
+            </div>
+            <div class="card__btn">
+              <button type="button" class="btn weight-500 size-17 height-24 clr-p-500 white-color third-btn" id="2">
+                See Project
+              </button>
+            </div>
+          </div>
+        </li>
+        <li class="card flex white-color">
+          <img class="card__img" src="images/uber-navigation-project.svg" alt="professional art printing project" />
+          <div class="card__text">
+            <h2 class="card__title weight-700 size-32 height-44 clr-n-800">
+              Uber Navigation
+            </h2>
+            <div class="card__subtitle flex">
+              <p class="card__subtitle-1 weight-600 size-13 height-16 clr-n-600">
+                Uber
+              </p>
+              <ul class="card__subtitle-ul flex">
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500">
+                  Lead Developer
+                </li>
+                <li class="card__subtitle-li weight-600 size-13 height-16 clr-n-500">
+                  2018
+                </li>
+              </ul>
+            </div>
+            <p class="card__dsc weight-400 size-15 height-24 clr-n-600">
+              A smart assistant to make driving more safe, efficient, and fun
+              by unlocking your most expensive computer: your car.
+            </p>
+            <div class="card__topics flex">
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                html
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                Ruby on rails
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                css
+              </p>
+              <p class="card_topic weight-500 size-12 height-16 clr-p-400 bg-p-50">
+                javascript
+              </p>
+            </div>
+            <div class="card__btn">
+              <button type="button" class="btn weight-500 size-17 height-24 clr-p-500 white-color fourth-btn" id="3">
+                See Project
+              </button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about white-color flex" id="about">
+      <div class="about__myself">
+        <h2 class="about__title weight-700 size-40 height-52 clr-n-800">
+          About Myself
+        </h2>
+        <p class="about__dsc weight-400 size-16 height-24 clr-n-600">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hestiate to contact me.
+        </p>
+        <h3 class="about__connect size-16 weight-500 height-24 clr-p-400">
+          Let's Connect
+        </h3>
+        <ul class="about__icons__ul ul flex">
+          <li class="about__icons__li">
+            <a href="https://github.com/HabAsm" class="about__icons__link link"><img src="images/github.svg" alt="github icon" /></a>
+          </li>
+          <li class="about__icons__li">
+            <a href="https://www.linkedin.com/in/habitamu-asimare-aa824b169/" class="about__icons__link link"><img src="images/Linkedin.svg" alt="linkedin icon" /></a>
+          </li>
+          <li class="about__icons__li">
+            <a href="#" class="about__icons__link link"><img src="images/hand.svg" alt="hand icon" /></a>
+          </li>
+          <li class="about__icons__li">
+            <a href="https://twitter.com/AsimareHabitamu" class="about__icons__link link"><img src="images/twitter.png" alt="twitter icon" /></a>
+          </li>
+          <li class="about__icons__li">
+            <a href="#" class="about__icons__link link"><img src="images/M.png" alt="M icon" /></a>
+          </li>
+        </ul>
+        <button type="button" class="btn weight-500 size-17 height-24 clr-p-500 white-color">
+          Get my resume
+        </button>
+      </div>
+      <ul class="abouts ul">
+        <li class="langs">
+          <div class="langs__top flex">
+            <h3 class="langs__top__title weight-500 size-20 height-24 clr-n-900">
+              Languages
+            </h3>
+            <img class="langs__top__img" src="images/arrow.png" alt="arrow icon" />
+          </div>
+          <ul class="langs__bottom ul">
+            <li class="flex bg-n-300">
+              <img src="images/js.png" alt="javascript icon" />
+              <p class="langs_name weight-500 size-15 height-20 clr-n-700">
+                JavaScript
+              </p>
+            </li>
+            <li class="flex bg-n-300">
+              <img src="images/html.png" alt="html icon" />
+              <p class="langs_name weight-500 size-15 height-20 clr-n-700">
+                HTML
+              </p>
+            </li>
+            <li class="flex bg-n-300">
+              <img src="images/css.png" alt="css icon" />
+              <p class="langs_name weight-500 size-15 height-20 clr-n-700">
+                CSS
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li class="framework">
+          <div class="framework__top flex">
+            <h3 class="framework__top__title weight-500 size-20 height-24 clr-n-900">
+              Frameworks
+            </h3>
+            <img class="framework__top__img" src="images/arrow.png" alt="arrow icon" />
+          </div>
+        </li>
+        <li class="about__skills">
+          <div class="about__skills__top flex">
+            <h3 class="about__skills__top__title weight-500 size-20 height-24 clr-n-900">
+              Skills
+            </h3>
+            <img class="about__skills__top__img" src="images/arrow.png" alt="arrow icon" />
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="contact" id="contact">
+      <div class="holders">
+        <h2 class="title_value weight-700 size-40 height-52">Contact me</h2>
+        <p class="description weight-500 size-20 height-28">
+          If you have an application you are interested in developing, a
+          feature that you need built or a project that needs coding. I’d love
+          to help with it
+        </p>
+        <form id="form" action="https://formspree.io/f/xqkwbzdb" method="post">
+          <ul class="ul">
+            <li>
+              <label for="fname" class="weight-500 size-17 height-20">Name:</label>
+              <input type="text" id="fname" class="contact__name weight-500 size-17 height-20" name="contact_name"
+                placeholder="Enter your name" required maxlength="30" />
+            </li>
+            <li>
+              <label for="email" class="weight-500 size-17 height-20">Email:</label>
+              <input type="email" id="email" class="contact__email weight-500 size-17 height-20" placeholder="Enter your email"
+                name="contact_email" required/>
+            </li>
+            <li>
+              <label for="message" class="weight-500 size-17 height-20">Message:</label>
+              <textarea id="message" class="weight-500 size-17 height-20" name="contact_message" placeholder="Write your message here"
+                cols="30" rows="8" maxlength="500" required></textarea>
+            </li>
+            <li>
+              <input type="submit" value="Get It Touch" class="btn btn--submit weight-500 size-17 height-24" />
+              <p class="error weight-700 size-20 height-28"></p>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+  </div>
 </body>
+
 </html>
