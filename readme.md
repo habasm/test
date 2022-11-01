@@ -10,7 +10,7 @@ In this project, I set up my portfolio repository. My goal here was to set up an
 - ![screenshot](/images/mobile_preview_v4.png)
 ## :red_circle: Live Demo
 
-[Live Preview Link](https://arthurgc.github.io/portfolio-microverse/)
+[Live Preview Link](https://www.linkedin.com/in/habitamu-asimare-aa824b169/)
 
 ## :hammer: Built With
 
