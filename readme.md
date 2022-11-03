@@ -10,7 +10,7 @@ In this project, I set up my portfolio repository. My goal here was to set up an
 - ![screenshot](/images/mobile_preview_v4.png)
 ## :red_circle: Live Demo
 
-[Live Preview Link](https://github.com/habasm/portfolio/)
+[Live Preview Link](https://habasm.github.io/portfolio/)
 
 ## :hammer: Built With
 
