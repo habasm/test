@@ -265,6 +265,13 @@ body {
   width: 100%;
 }
 
+.card__img:hover {
+  width: 100%;
+  animation-name: card__img;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
 .card__subtitle {
   align-items: center;
   column-gap: 2rem;
@@ -713,5 +720,32 @@ body {
   .contact {
     padding: 8.875rem;
     padding-bottom: 7.9rem;
+  }
+}
+
+@keyframes btn-hover {
+  100% {
+    box-shadow: inset 11rem 0 0 0 #6070ff, 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
+  }
+}
+
+@keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
+
+@keyframes card__img {
+  50% {
+    transform: scale(1.1)  translateX(1%);
+  }
+
+  to {
+    transform: scale(1)  translateX(0);
   }
 }
