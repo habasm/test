@@ -1,7 +1,7 @@
 // Mobile menu functionality
-export const menuIconMobile = document.querySelector('.navbar__hamb');
-const menu = document.querySelector('.navbar__menu');
-export const menuLinks = document.querySelectorAll('.navbar__menu__link');
+export const menuIconMobile = document.querySelector(".navbar__hamb");
+const menu = document.querySelector(".navbar__menu");
+export const menuLinks = document.querySelectorAll(".navbar__menu__link");
 
 const isActiveClassExisted = (element) => element.classList.contains('active');
 
