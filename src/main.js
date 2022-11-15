@@ -1,4 +1,3 @@
-// Mobile menu functionality
 export const menuIconMobile = document.querySelector('.navbar__hamb');
 const menu = document.querySelector('.navbar__menu');
 export const menuLinks = document.querySelectorAll('.navbar__menu__link');
@@ -22,7 +21,6 @@ export const closeMenu = () => {
   refreshIcon();
 };
 
-// Popup window functionality
 export const projects = [
   {
     name: 'Topic',
